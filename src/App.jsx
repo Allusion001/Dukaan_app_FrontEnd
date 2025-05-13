@@ -6,7 +6,7 @@ import MainLayout from './layout/MainLayout';
 import { BrowserRouter, Routes, Route } from "react-router";
 import HomePage from './components/home/HomePage';
 import NotFound from './components/ui/NotFound';
-import ProductPage from './components/product/productPage';
+import ProductPage from './components/product/ProductPage';
 import { useEffect, useState } from 'react';
 import api from './api';
 
