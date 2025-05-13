@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ProductPlaceHolder from './ProductPlaceHolder'
-import RelatedProducts from './relatedProducts'
+import RelatedProducts from './RelatedProducts'
 import { useParams } from 'react-router-dom'
 import api from '../../api'
 import { baseURL } from '../../api'
