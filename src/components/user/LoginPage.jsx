@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import api from '../../api'
 import Error from '../ui/Error'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate,Link } from 'react-router-dom'
 import { useContext } from 'react'
 import { AuthContext } from '../../context/AuthContext'
+
 
 
 function LoginPage() {
@@ -79,7 +80,7 @@ function LoginPage() {
                     </div>
 
                     <div>
-                    <p className="mb-0">Don't have an account? <a href="#!" className="text-decoration-none fw-bold">Sign Up</a>
+                    <p className="mb-0">Don't have an account?  <Link to="/register" className="text-decoration-none fw-bold">Sign Up</Link>
                     </p>
                     </div>
 

@@ -41,13 +41,13 @@ function UserData() {
                     <div className='container my-4'>
                         <div className='row '>
                             <div className='col-md-6'>
-                                <p className='col'>FullName : {userInfo?userInfo.firstName:"John Doe"}</p>
+                                <p className='col'>FullName : {userInfo?userInfo.firstName + userInfo.lastName:"John Doe"}</p>
                                 <p className='col'>Email : {userInfo?userInfo.email:"John Doe"}</p>
                                 <p className='col'>Phone : {userInfo?userInfo.phone:"John Doe"}</p>
                             </div>
                             <div className='col-md-6'>
                                 <p className='col'>City : {userInfo?userInfo.city:"John Doe"}</p>
-                                <p className='col'>Country : {userInfo?userInfo.country:"John Doe"}</p>
+                                <p className='col'>UserName : {userInfo?userInfo.userName:"John Doe"}</p>
                               
                             </div>
                         </div>

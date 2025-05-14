@@ -16,6 +16,7 @@ import LoginPage from './components/user/LoginPage';
 import ProtectedRoute from './components/ui/ProtectedRoute';
 import { AuthProvider } from './context/AuthContext';
 import UserData from './components/user/UserData';
+import RegisterPage from './components/user/RegisterPage';
 
 
 
@@ -49,6 +50,7 @@ function App() {
             <Route path='cart' element={<CartPage numCartItems={numCartItems} setNumCartItems={setNumCartItems}/>} />
             <Route path="login" element={<LoginPage/>}/>
             <Route path="profile" element={<UserData/>}/>
+            <Route path="register" element={<RegisterPage/>}/>
             <Route path="*" element={<NotFound />} />
             </Route>
         </Routes>
