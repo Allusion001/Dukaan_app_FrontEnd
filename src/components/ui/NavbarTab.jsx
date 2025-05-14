@@ -41,7 +41,7 @@ function NavbarTab({numCartItems}) {
             </li>
           
           <li className='nav-item'> 
-          <NavLink className={({isActive})=>isActive?"nav-link active fw-semibold" : "nav-link fw-semibold"} end to="/contact" aria-current="page" >Contact </NavLink>
+          <NavLink className={({isActive})=>isActive?"nav-link active fw-semibold" : "nav-link fw-semibold"} end to="/" aria-current="page" >Home </NavLink>
         </li></>)}
             
 
