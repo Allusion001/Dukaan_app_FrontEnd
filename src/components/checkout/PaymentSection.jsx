@@ -37,9 +37,9 @@ function PaymentSection() {
                     <i className='bi bi-paypal'></i>Pay With Paypal
                 </button>
 
-                <button className={`btn btn-primary w-100 mb-3 ${styles.flutterwaveButton}`} id="flutterwave-button">
+                {/* <button className={`btn btn-primary w-100 mb-3 ${styles.flutterwaveButton}`} id="flutterwave-button">
                     <i className='bi bi-credit-card'></i>Pay with Flutterwave
-                </button>
+                </button> */}
 
 
             </div>
